@@ -10,14 +10,17 @@ int main()
     scanf("%lf", &dochod);
 
     if (dochod <= 50000){
-        podatek = 10.00;
-        printf("Wysokosc podatku wynosi: %.2lf\n", podatek);
+        podatek = 0.10;
+        dochod = dochod * podatek;
+        printf("Wysokosc podatku wynosi: %.2lf\n", dochod);
     } else if (dochod > 50000 && dochod <= 100000) {
-        podatek = 15.00;
-        printf("Wysokosc podatku wynosi: %.2lf\n", podatek);
+        podatek = 0.15;
+        dochod = dochod * podatek;
+        printf("Wysokosc podatku wynosi: %.2lf\n", dochod);
     } else {
-        podatek = 20.00;
-        printf("Wysokosc podatku wynosi: %.2lf\n", podatek);
+        podatek = 0.20;
+        dochod = dochod * podatek;
+        printf("Wysokosc podatku wynosi: %.2lf\n", dochod);
     }
 
 
@@ -25,4 +28,3 @@ int main()
 
     return 0;
 }
-
