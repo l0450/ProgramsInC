@@ -7,3 +7,13 @@ Based on the fundamental algorithmic problems, create a program in C that solves
 
 
 ![Screenshot 2025-10-20 115759](https://github.com/user-attachments/assets/4dbab7fc-400e-4381-bff6-9936ba31dd3f)
+
+## Exercise 2 - Tax calculator ##
+
+Write a simple tax calculator program in C. The program should ask the user to enter their annual income and then calculate the tax amount according to a simple taxation system:
+
+* If the annual income is less than 50000 PLN, the tax is 10%
+* If the annual income is bigger than 50000 PLN and less than 100000 PLN, the tax is 15%
+* If the annual income is bigger than 100000 PLN, the tax is 20%
+
+The result is the amount of tax that the user has to pay based on the provided annual income.
