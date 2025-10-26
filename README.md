@@ -13,7 +13,11 @@ Based on the fundamental algorithmic problems, create a program in C that solves
 Write a simple tax calculator program in C. The program should ask the user to enter their annual income and then calculate the tax amount according to a simple taxation system:
 
 * If the annual income is less than 50000 PLN, the tax is 10%
-* If the annual income is bigger than 50000 PLN and less than 100000 PLN, the tax is 15%
+* If the annual income is between 50000 PLN and 100000 PLN, the tax is 15%
 * If the annual income is bigger than 100000 PLN, the tax is 20%
 
 The result is the amount of tax that the user has to pay based on the provided annual income.
+
+## Exercise 3 - Sum of numbers in an array ##
+
+Write a program that calculates the sum of the elements of an array using a recursive function.
