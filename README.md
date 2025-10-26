@@ -21,3 +21,8 @@ The result is the amount of tax that the user has to pay based on the provided a
 ## Exercise 3 - Sum of numbers in an array ##
 
 Write a program that calculates the sum of the elements of an array using a recursive function.
+
+## Exercise 4 - Fibonacci sequence ##
+
+Write a C program that displays the Fibonacci sequence value for a specific number of words in the sequence using a recursive function.
+
