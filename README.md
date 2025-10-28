@@ -26,3 +26,9 @@ Write a program that calculates the sum of the elements of an array using a recu
 
 Write a C program that displays the Fibonacci sequence value for a specific number of words in the sequence using a recursive function.
 
+## Exercise 5 - Input array with finding the largest element inside an array ##
+
+Write a program in C that asks the user to enter some numbers and then reads those numbers into an array. The program should find the largest number from the given numbers and display it.
+
+
+
