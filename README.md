@@ -30,5 +30,9 @@ Write a C program that displays the Fibonacci sequence value for a specific numb
 
 Write a program in C that asks the user to enter some numbers and then reads those numbers into an array. The program should find the largest number from the given numbers and display it.
 
+## Exercise 6 - Reversing an array using pointers ##
+
+Write a C program that reads an array of integers from the user and then displays the array's contents in reverse order using pointers.
+
 
 
