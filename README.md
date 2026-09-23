@@ -1,5 +1,5 @@
 # ProgramsInC #
-This repository presents a group of programs written in the C language during my studies in the Automation & Robotics course. All the classes, functions, variables, and comments are in Polish, but in this README.md file, I will explain all the programs in English. The course name is "Introduction to Programming." 
+This repository presents a group of programs written in the C language during my studies in the Automation Engineering & Robotics course. All the classes, functions, variables, and comments are in Polish, but in this README.md file, I will explain all the programs in English. The course name is "Introduction to Programming." 
 
 ## Exercise 1 - Short multiplication formula ##
 
@@ -33,6 +33,18 @@ Write a program in C that asks the user to enter some numbers and then reads tho
 ## Exercise 6 - Reversing an array using pointers ##
 
 Write a C program that reads an array of integers from the user and then displays the array's contents in reverse order using pointers.
+
+## Exercise 7 - 3 user input tasks ##
+
+# a) Area and circumference calculator #
+
+Write a program that:
+1. Displays a selection menu: Rectangle (1) or Circle (2).
+2. Uses a switch statement (or nested if-else statements) to handle the user's choice.
+3. Depending on the choice:
+o Rectangle: Prompts for the side lengths. Uses the `double` type for calculations. Calculates and displays the area and perimeter.
+o Circle: Prompts for the radius. Calculates and displays the area ($\pi r^2$) and circumference ($2\pi r$). Uses a constant for $\pi$ (e.g., `M_PI` from `math.h` or defined as `3.14159`).
+4. Implements input validation: If the user enters a negative value for a side or the radius, it displays an error message and prompts for re-entry (using a `do-while` loop).
 
 
 
