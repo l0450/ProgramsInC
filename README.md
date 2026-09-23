@@ -36,7 +36,7 @@ Write a C program that reads an array of integers from the user and then display
 
 ## Exercise 7 - 3 user input tasks ##
 
-# a) Area and circumference calculator #
+### a) Area and circumference calculator ###
 
 Write a program that:
 1. Displays a selection menu: Rectangle (1) or Circle (2).
@@ -45,6 +45,30 @@ Write a program that:
 o Rectangle: Prompts for the side lengths. Uses the `double` type for calculations. Calculates and displays the area and perimeter.
 o Circle: Prompts for the radius. Calculates and displays the area ($\pi r^2$) and circumference ($2\pi r$). Uses a constant for $\pi$ (e.g., `M_PI` from `math.h` or defined as `3.14159`).
 4. Implements input validation: If the user enters a negative value for a side or the radius, it displays an error message and prompts for re-entry (using a `do-while` loop).
+
+### b) Number analysis ###
+
+Write a program that:
+1. Prompts the user to enter an integer.
+2. Uses `if` statements to perform the following checks and display the results:
+o Whether the number is even or odd (using the modulo operator `%`). 
+o Whether the number is positive, negative, or zero. 
+o Whether the number falls within a specific range (e.g., greater than 100 and less than 500) – use the logical operator `&&`.
+3. Design the conditional structure so that each check (parity, sign, range) is independent.
+
+### c) The sum and the average of the numbers provided ###
+
+Write a program that:
+1. Uses a `while(1)` loop (an infinite loop) to continuously prompt the user to enter integers.
+2. Allows the user to stop entering data by providing a special termination value, e.g., 0. Use the `break` statement to exit the loop.
+3. Inside the loop, the program must:
+o Calculate the sum of all entered numbers. 
+o Count how many negative numbers were entered. 
+o Count the total number of inputs (excluding the termination value 0).
+4. After exiting the loop, the program displays:
+o The final sum of the entered numbers. 
+o The arithmetic mean of the entered numbers (use `float` or `double` for the result). 
+o The count of negative numbers.
 
 
 
