@@ -70,5 +70,9 @@ o The final sum of the entered numbers.
 o The arithmetic mean of the entered numbers (use `float` or `double` for the result). 
 o The count of negative numbers.
 
+## Exercise 8 - The determinant of a 3x3 matrix ##
+
+Write a program that accepts a 3x3 matrix from the user and displays its determinant.
+
 
 
