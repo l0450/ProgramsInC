@@ -74,5 +74,7 @@ o The count of negative numbers.
 
 Write a program that accepts a 3x3 matrix from the user and displays its determinant.
 
+## Exercise 8 - Matrix multiplication ##
 
+Write a program that Reads a text file containing two 3x3 matrices, calculates the result of their multiplication, and then saves the result of this operation to a new text file.
 
